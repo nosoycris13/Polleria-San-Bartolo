@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/pedidos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <title>POLLERIA SAN BARTOLO</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logotrasnparente.png" alt="Logo San Bartolo">
+        </div>
+
+        <nav class="subpaginas">
+            <a href="../../index.html">INICIO</a> 
+            <a href="../OrdeneAqui/OrdeneAqui.html">ORDENA AQUÍ</a> 
+            <a href="../Locales/Locales.html">LOCALES</a> 
+            <a href="../MisPedidos/MisPedidos.html">MIS PEDIDOS</a> 
+            <a href="../Reservas/Reservas.html">RESERVAS</a> 
+
+            <a href="../CarritoCompras/CarritoCompras.html">
+                <img src="carrito.png" alt="Carrito" width="25">
+            </a> 
+
+            <a href="../MiCuenta/MiCuenta.html">
+                <img src="persona.png" alt="persona" width="25">
+            </a> 
+        </nav>
+    </header>
+
+    <div class="banner">
+        <img src="pedidosbanner.png" alt="banner">
+    </div>
+
+    <main>
+        <h2 class="subtitulo">HISTORIAL DE MIS PEDIDOS</h2>
+
+        <table border="1" width="90%" class="tabla">
+            <tr>
+                <th>N° Pedido</th>
+                <th>Fecha</th>
+                <th>Detalle del Plato</th>
+                <th>Total</th>
+                <th>Estado</th>
+            </tr>
+            <tr>
+                <td>00125</td>
+                <td>02/03/2026</td>
+                <td>1/2 Pollo a la Brasa + Gaseosa</td>
+                <td>S/ 41.90</td>
+                <td><strong>Entregado</strong></td>
+            </tr>
+            <tr>
+                <td>00130</td>
+                <td>09/03/2026</td>
+                <td>Parrilla Carretillera</td>
+                <td>S/ 50.90</td>
+                <td><strong>En Camino...</strong></td>
+            </tr>
+        </table>
+
+        <br>
+
+        <form class="nopedido">
+            <label class="texto1">¿No encuentras tu pedido?</label> <br>
+            <labe class="texto2">Escribe el código:</label>
+            <input type="number" name="codigo">
+            <input type="submit" value="Rastrear Pedido" class="enviar">
+        </form>
+
+    </main>
+</body>
+</html>

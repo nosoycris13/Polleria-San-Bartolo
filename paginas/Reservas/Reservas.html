@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../CSS/reservas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <title>RESERVAS</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logotrasnparente.png" alt="Logo San Bartolo">
+        </div>
+
+        <nav class="subpaginas">
+            <a href="../../index.html">INICIO</a> 
+            <a href="../OrdeneAqui/OrdeneAqui.html">ORDENA AQUÍ</a> 
+            <a href="../Locales/Locales.html">LOCALES</a> 
+            <a href="../MisPedidos/MisPedidos.html">MIS PEDIDOS</a> 
+            <a href="../Reservas/Reservas.html">RESERVAS</a> 
+
+            <a href="../CarritoCompras/CarritoCompras.html">
+                <img src="carrito.png" alt="Carrito" width="25">
+            </a> 
+
+            <a href="../MiCuenta/MiCuenta.html">
+                <img src="persona.png" alt="persona" width="25">
+            </a> 
+        </nav>
+    </header>
+
+    <div class="banner">
+        <img src="reservas.png" alt="Banner">
+    <div>
+
+    <br>
+    <main>
+        <form action="../../index.html" method="get">
+            <label class="titulo">REALIZA TU RESERVA</label>
+            <br><br>
+
+            <label class="subst">Nombre:</label> <br>
+            <input type="text" name="nombre" placeholder="Escriba su nombre" required class="rellenar">
+            <br><br>
+
+            <label class="subst">Correo Electronico:</label> <br>
+            <input type="email" name="email" placeholder="Escriba su email" required class="rellenar">
+            <br><br>
+
+            <label class="subst">Teléfono Celular:</label> <br>
+            <input type="number" name="telefono" placeholder="Teléfono Celular" required class="rellenar">
+            <br><br>
+
+            <label class="subst">DNI:</label> <br>
+            <input type="number" name="DNI" placeholder="DNI" required class="rellenar">
+            <br><br>
+
+            <label class="subst">Locales:</label> <br>
+            <select name="local" required>
+                <option value="">Seleccione el local</option>
+                <option value="VS">Villa Salvador (Av. Pachacútec 15828)</option>
+                <option value="Surqillo">Surquillo (Av. Tomás Marsano 15048)</option>
+                <option value="Barranco">Barranco (Av. Nicolás de Piérola 302)</option>
+                <option value="Chorrillos">Chorrillos (Av. Guardia Civil Sur 356)</option>
+            </select>
+            <br><br>
+
+            <label class="subst">Ingrese fecha</label> <br>
+            <input type="date" name="fecha" required class="rellenar">
+            
+
+            <label class="subst">Hora:</label>
+            <input type="time" name="hora" required class="rellenar">
+             <br><br>
+
+            <label class="subst">Cantidad de Personas:</label> <br>
+            <input type="number" placeholder="Cantidad de Personas" required class="rellenar">
+            <br><br>
+
+            <label class="subst">Motivo:</label> <br>
+            <input type="text" placeholder="Cumpleaños, Cita" required class="rellenar">
+            <br><br>
+
+            <input type="submit" value="Enviar" class="enviar">
+        </form>
+    </main>
+    
+</body>
+</html>
