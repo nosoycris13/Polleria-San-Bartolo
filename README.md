@@ -1,2 +1,2 @@
-# Poller-a-San-Bartolo
+# Polleria-San-Bartolo
 Pollería San Bartolo: La mejor pollería peruana
